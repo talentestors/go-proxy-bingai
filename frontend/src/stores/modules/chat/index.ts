@@ -32,6 +32,18 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
+        baseUrl: 'https://sydney.zgrnb.com',
+        label: '第三方站点1',
+      },
+      {
+        baseUrl: 'https://sydney.ytmozhi.com',
+        label: '第三方站点2',
+      },
+      {
+        baseUrl: 'https://sydney.stazxr.eu.org',
+        label: '个人站点',
+      },
+      {
         baseUrl: location.origin,
         label: '本站',
       },
