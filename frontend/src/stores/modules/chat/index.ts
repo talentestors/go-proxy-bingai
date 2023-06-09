@@ -23,18 +23,18 @@ export const useChatStore = defineStore(
     const isShowChatServiceSelectModal = ref(false);
     const selectedSydneyBaseUrl = ref('');
     const sydneyConfigs = ref<SydneyConfig[]>([
-      // {
-      //   baseUrl: 'https://sydney.bing.com',
-      //   label: 'Bing 官方',
-      // },
-      // {
-      //   baseUrl: 'https://sydney.vcanbb.chat',
-      //   label: 'Cloudflare',
-      // },
-      // {
-      //   baseUrl: 'https://sydney.zgrnb.com',
-      //   label: '第三方站点1',
-      // },
+      {
+        baseUrl: 'https://sydney.bing.com',
+        label: 'Bing 官方',
+      },
+      {
+        baseUrl: 'https://sydney.vcanbb.chat',
+        label: 'Cloudflare',
+      },
+      {
+        baseUrl: 'https://sydney.zgrnb.com',
+        label: '第三方站点1',
+      },
       {
         baseUrl: 'https://sydney.ytmozhi.com',
         label: '第三方站点2',
